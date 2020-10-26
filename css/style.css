@@ -126,6 +126,8 @@ header .hero_img{
   width: 100%;
 }
 
+
+
 /* /models */
 
 /* find */
@@ -206,6 +208,7 @@ header .hero_img{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #smart_mobility .row .ride h2, #smart_mobility .row .globe h2{
@@ -226,8 +229,30 @@ header .hero_img{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 
 
 /* /smart mobility */
+
+/* media query sm */
+@media all and (max-width: 768px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pr_1{
+    padding-right: 0;
+  }
+
+  .pl_1{
+    padding-left: 0;
+  }
+
+  #find .row div:first-child{
+    margin-top: 150px;
+  }
+}
