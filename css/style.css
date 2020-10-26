@@ -171,3 +171,63 @@ header .hero_img{
 }
 
 /* /find */
+
+/* smart mobility */
+
+#smart_mobility .row .smart{
+  height: 500px;
+  background-image: url('../img/smart.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  text-align: center;
+}
+
+#smart_mobility .row .smart h2{
+  font-size: 225%;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+#smart_mobility .row .smart p{
+  font-size: 135%;
+  margin-bottom: 30px;
+}
+
+#smart_mobility .row .smart a{
+  font-size: 135%;
+  color: black;
+}
+
+#smart_mobility .row .ride{
+  min-height: 700px;
+  background-image: url('../img/ride.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#smart_mobility .row .ride h2, #smart_mobility .row .globe h2{
+  font-size: 225%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+#smart_mobility .row .ride a, #smart_mobility .row .globe a{
+  font-size: 150%;
+  padding: 0 10px;
+  color: red;
+}
+
+#smart_mobility .row .globe{
+  min-height: 700px;
+  background-image: url('../img/globe.jfif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+
+/* /smart mobility */
