@@ -107,6 +107,8 @@ header .hero_img{
 
 /* main site content */
 
+/* models */
+
 #models {
   padding: 2rem;
 }
@@ -123,3 +125,49 @@ header .hero_img{
 #models .card img{
   width: 100%;
 }
+
+/* /models */
+
+/* find */
+
+#find{
+  position: relative;
+}
+
+#find .helmain img{
+  width: 100%;
+  height: 800px;
+}
+
+#find .phone img{
+  height: 400px;
+  border-radius: 30px;
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#find .row div{
+  min-height: 200px;
+  padding: 60px 0;
+}
+
+#find .row div h2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#find .row div h4{
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 5px 0;
+}
+
+#find .row div span{
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 5px 0;
+}
+
+/* /find */
